@@ -1,0 +1,14 @@
+
+.chart{width:100%;max-width:700px;display:block;margin:10px auto;}
+:root{
+  --bg:#FAF7FF;
+  --card:#FFFFFF;
+  --accent:#E4D9FF;
+  --text:#2B1F3A;
+  --muted:#7A6E8A;
+}
+body{margin:0;background:var(--bg);font-family:Arial;color:var(--text);}
+.container{max-width:900px;margin:auto;padding:20px;}
+.nav a{margin-right:10px;text-decoration:none;color:var(--text);padding:6px 12px;border-radius:8px;}
+.nav a.active{background:var(--accent);}
+.card{background:var(--card);padding:20px;margin:20px 0;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);}
